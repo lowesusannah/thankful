@@ -1,0 +1,82 @@
+/*font-family: 'Spinnaker', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;*/
+
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/StockSnap_LJB9IHYKU9.jpg);
+  background: red;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+img {
+  float:left;
+  padding: 10px;
+}
+
+div {
+  float:left;
+  padding: 10px;
+}
+
+#branded-header {
+  padding: 10px;
+  margin:auto;
+}
+
+#branded-header h3{
+  padding: 10px;
+  margin-bottom: 10px;
+  float: left;
+  font-size: 20px;
+  position: relative;
+}
+
+#about, #gift-guide, #sign-up, #log-in {
+  float: right;
+}
+
+.total-title {
+  margin: 50px;
+}
+
+#title1 {
+  padding: 1px;
+  border-bottom: 1px solid white;
+  float: left;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#title2 {
+  float: left;
+  font-size: 40px;
+  margin-top: -40px;
+}
+
+#call-to-action {
+  padding: 10px;
+  height: 50px;
+  width: 250px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  border: solid black;
+  border-radius: 5px;
+  float: left;
+  background-color: blue;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#ps h6 em {
+  float: bottom;
+  
+}
